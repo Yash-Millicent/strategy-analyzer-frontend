@@ -1,0 +1,28 @@
+.login-card {
+  /* width: 432px !important; */
+  /* height: 100%; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 24px !important;
+}
+
+.Details {
+  width: 240px;
+  height: 15px;
+  flex-grow: 0;
+  margin: 16px 120px 40px 0;
+  font-family: Inter !important;
+  font-size: 12px;
+  text-align: left;
+}
+
+.Login {
+  width: 1366px;
+  height: 768px;
+  flex-grow: 0;
+  padding: 99px 144px 99px 112px;
+  background-color: #fff;
+}
+
+body {
+  overflow-x: hidden;
+}

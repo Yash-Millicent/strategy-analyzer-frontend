@@ -1,0 +1,59 @@
+.chart-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 4px;
+  margin: 0 0 6px 95px;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+}
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+  /* min-height: 70px; */
+  padding: 0 2.25rem;
+}
+.pie-chart-header {
+  width: 114px;
+  height: 19px;
+  flex-grow: 0;
+  margin: 0 20px 43px 3px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  color: #41414e;
+}
+.total-Wins {
+  /* width: 69px;
+   height: 17px; */
+  /* flex-grow: 0; */
+  /* margin: 0 38px 10px 0; */
+  font-family: Inter;
+  font-size: 14px;
+  text-align: left;
+  color: #969ba1;
+}
+
+.small-size-card {
+  min-width: 271px;
+  height: 89px;
+  flex-grow: 0;
+  margin: 0 40px 0 0;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+}
+
+@media (min-width: 576px) and (max-width: 1100px) {
+  .new-small-size-card {
+    height: 120px;
+  }
+}
+
+/* comment */
